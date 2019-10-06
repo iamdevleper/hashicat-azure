@@ -11,7 +11,7 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Bacon World!</h2></center>
-  Welcome to ${PREFIX}'s bacon app. 
+  Welcome to ${PREFIX}'s Bacon World. 
   <!-- END -->
   
   </div>
