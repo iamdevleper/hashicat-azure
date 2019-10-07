@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "myresourcegroup" {
   location = "${var.location}"
 }
 
-/*module "web_app_container" {
+module "web_app_container" {
   source              = "app.terraform.io/RogerBerlind-TFC-Workshop-Lab/web-app-container/azurerm"
   name                = "${var.prefix}"
   port                = "80"
@@ -14,4 +14,4 @@ resource "azurerm_resource_group" "myresourcegroup" {
 }
 output "container_app_url" {
   value = "http://${module.web_app_container.hostname}"
-}*/
+}
